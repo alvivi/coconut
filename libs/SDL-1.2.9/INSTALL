@@ -1,0 +1,23 @@
+
+To install and use SDL:
+
+    1a. If you are compiling SDL applications natively, you can install
+        the SDL development files by typing "make native"
+
+    1b. If you are cross-compiling from Linux to Win32, and you have your
+        cross-compiler installed /usr/local/cross-tools as described in:
+            http://www.libsdl.org/extras/win32/cross/README.txt
+        You can install the SDL development files by typing "make cross"
+
+    2.  Look at the example programs in ./test, and check out the HTML
+        documentation in ./docs to see how to use the SDL library.
+
+    3.  Join the SDL developer mailing list by sending E-mail to
+    	sdl-request@libsdl.org
+        and put "subscribe" in the subject of the message.
+
+        Or alternatively you can use the web interface:
+            http://www.libsdl.org/mailing-list.php
+
+That's it!
+Sam Lantinga <slouken@libsdl.org>
